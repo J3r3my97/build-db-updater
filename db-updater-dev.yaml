@@ -1,0 +1,4 @@
+DB_HOST: build-project-2024:us-central1:datawarehouse
+DB_NAME: warehouse
+DB_USER: 738471090343-compute@developer.gserviceaccount.com
+ENV: dev
