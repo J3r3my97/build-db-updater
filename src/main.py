@@ -37,7 +37,7 @@ def get_db():
 async def root():
     return {"message": "app is running"}
 
-@app.get("/denta;_patients", tags=["patients"])
+@app.get("/dental_patients", tags=["patients"])
 async def get_patients(db: Session = Depends(get_db)):
     patients = crud.get_all_patients(db)
     return patients
